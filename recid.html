@@ -1,0 +1,108 @@
+<html>
+    <head>
+        <title>Idli</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sty.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" integrity="sha384-xeJqLiuOvjUBq3iGOjvSQSIlwrpqjSHXpduPd6rQpuiM3f5/ijby8pCsnbu5S81n" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Rubik:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="sty.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <div class="container-xxl px-md-5 bg-white shadow-lg">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+                <a href="/" class="d-flex align-items-center col-md-3 mb-md-0 text-dark text-decoration-none">
+                <img src="rc.png" alt="Cooking Blog" width="229" height="68" >
+                </a>
+                <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+                    <div class="col-md-3 text-end">
+                        <form action="/search" method="POST">
+                            <input type="text" placeholder="Search..." name="searchTerm" class="form-control" aria-label="Search">
+                        </form>
+                    </div>
+                    <li><a href="index.html" class="nav-link px-2 link-secondary">Home</a></li>
+                    <li><a href="allrecipes.html" class="nav-link px-2 link-secondary">Recipes</a></li>
+                    <li><a href="submit.html" class="nav-link px-2 link-secondary">Submit</a></li>
+                   
+                        <li><a href="signin.html" class="nav-link px-2 link-secondary">Login</a></li>
+                   
+
+                        
+                </ul>
+            </header>
+            </div>
+        <h1>Recipe</h1>
+
+
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/" style="text-decoration: none;">Recipe</a></li>
+            <li class="breadcrumb-item active" aria-current="page">
+               Sushi
+            </li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col-12 col-md-4">
+            <img src="i.jpg" style="top: 20px;" 
+            alt="<%- recipe.image %>"
+                class="img-fluid sticky-top" loading="lazy">
+        </div>
+
+        <div class="col-12 col-md-8">
+            <div class="row">
+                <div class="col-12">
+                    <h1>
+                        Idli
+                    </h1>
+                </div>
+                <div class="col-12 mb-4">
+                    <i class="bi bi-tag"></i>
+                    Indian
+                        <br> <br>
+                        South Indian steamed rice cakes, made from fermented rice and lentil batter.                </div>
+                <div class="col-12">
+                    <h4>Ingredients</h4>
+                    <ul class="list-group list-group-flush">
+                        
+                            <li class="list-group-item">Rice
+                               </li>
+                               <li class="list-group-item">                               Urad dal (black lentils)
+
+                            </li>
+                            <li class="list-group-item">Salt
+                            </li>
+                            <li class="list-group-item">Water
+                            </li>
+                            
+                               
+                               
+                    </ul>
+                </div>
+                <div class="col-12" style="white-space: pre-line;">
+                    <h4>Cooking Instructions</h4>
+                    Soak rice and urad dal, grind them into a smooth batter, and mix with salt. Let it ferment overnight. Grease idli molds and pour batter into each. Steam for 10-15 minutes until cooked. Serve hot with chutney and sambar.
+
+
+
+
+
+
+
+
+
+
+                </div>
+            </div>
+            <br><br>
+        </div>
+    </div>
+   
+    </body>
+</html>
